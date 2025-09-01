@@ -70,7 +70,7 @@ const Header = () => {
       }}
     >
       <Container
-        className="py-1 px-0"
+        className="py-1 px-3 px-sm-0"
       >
         <Navbar.Brand 
           href="#home"
@@ -170,18 +170,22 @@ const Header = () => {
                 <i className="fas fa-user-circle fs-5 text-success"></i>
               </a>
             </div>
-            <div className="d-flex gap-2 justify-content-end justify-content-lg-start">
-              <a
-                href="/login"
-                className="btn btn-outline-primary text-decoration-none"
+            <div 
+              className="d-flex gap-2 justify-content-end justify-content-lg-start"
+              style={{minWidth: "148px"}}
               >
-                Login
-              </a>
               <a
                 href="/register"
-                className="btn btn-outline-primary text-decoration-none"
+                className="btn text-decoration-none"
+                style={{width: "75px"}}
               >
                 Signup
+              </a>
+              <a
+                href="/login"
+                className="btn btn-primary text-decoration-none"
+              >
+                Login
               </a>
             </div>
           </div>        
