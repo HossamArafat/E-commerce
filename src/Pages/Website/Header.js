@@ -93,7 +93,7 @@ const Header = () => {
             <NavLink className="nav-link fw-semibold nav-link-hover" href="/#">Home</NavLink>
             <NavLink className="nav-link fw-semibold nav-link-hover" href="/#categories">Collections</NavLink>
             <NavLink className="nav-link fw-semibold nav-link-hover" href="/#products" >Products</NavLink>
-            <NavLink className="nav-link fw-semibold nav-link-hover d-none d-xl-block" href="#footer" >Contacts</NavLink>
+            <NavLink className="nav-link fw-semibold nav-link-hover" href="#footer" >Contacts</NavLink>
           </Nav>
           <div
             className="input-group me-lg-3 me-0 mb-lg-0 mb-4 search-container"
