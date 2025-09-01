@@ -171,19 +171,18 @@ const Header = () => {
               </a>
             </div>
             <div 
-              className="d-flex gap-2 justify-content-end justify-content-lg-start"
-              style={{minWidth: "148px"}}
-              >
-              <a
+              className="d-flex gap-2 justify-content-end justify-content-lg-start">
+              {/* <a
                 href="/register"
                 className="btn text-decoration-none"
                 style={{width: "75px"}}
               >
                 Signup
-              </a>
+              </a> */}
               <a
                 href="/login"
                 className="btn btn-primary text-decoration-none"
+                style={{width: "75px"}}
               >
                 Login
               </a>
