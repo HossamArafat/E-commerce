@@ -1,0 +1,17 @@
+.text-muted {
+    color: inherit!important;
+}
+
+.my-button {
+    transition: 0.2s;
+}
+
+.my-button:hover {
+    transform: scale(1.08);
+}
+
+.my-button .cart {
+    color: #0d6efd;
+    background-color: white;
+}
+

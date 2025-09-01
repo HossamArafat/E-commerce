@@ -1,0 +1,72 @@
+.my-form {
+    background-image: linear-gradient(
+    110deg,
+    white 0%,
+    white 50%,
+    transparent 50%),
+    url("../../../public/form.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 13px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+}
+
+.my-custom-form {
+width: 50%;
+height: auto;
+}
+
+.my-custom-form h1 {
+    margin-bottom: 20px;
+}
+
+.my-form-control {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.my-form-control label,
+.my-form-control input {
+    display: block;
+}
+
+.my-form-control input {
+    padding: 20px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    width: 80%;
+    border-bottom: 3px solid transparent;
+    font-family: "Lato", sans-serif;
+    box-shadow: 0 0 8px rgb(153, 152, 152) inset;
+}
+
+
+.my-form-control input:focus:valid {
+    border-bottom: 3px solid green;
+}
+
+.my-form-control input:focus:not(:valid) {
+    border-bottom: 3px solid orangered;
+}
+
+.my-form-control input:placeholder-shown + label {
+    opacity: 0;
+    visibility: hidden;
+    top: 20px;
+    left: 20px
+}
+
+.my-form-control label {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    transition: 0.3s;
+}

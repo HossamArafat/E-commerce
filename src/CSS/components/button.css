@@ -1,0 +1,22 @@
+.my-btn {
+    background-color: white;
+    outline: none;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.my-btn-primary {
+    background-color: #205e20;
+    color: white;
+     border: 1px solid transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.my-btn-primary:hover {
+    background-color: white;
+    color: #205e20;
+    border: 1px solid #205e20;
+    transition: 0.3s;
+}

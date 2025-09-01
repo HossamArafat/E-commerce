@@ -1,0 +1,50 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+.side-bar {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    background-color:white;
+    z-index: 1;
+    height: calc(100vh - 70px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.side-bar-link {
+    color: #495057;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 10px 8px;
+    margin: 0 8px;
+    border-radius: 6px;
+}
+.side-bar .active, .side-bar .active:hover {
+    background-color: #f2f3fe;
+    color: #038edc;
+}
+.side-bar-link:hover {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border: none;
+    border-color: white;
+}
+
+.dropdown-toggle {
+    font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.paginate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    list-style: none;
+    padding-left: 0;
+}
+.item-link {
+    display: inline-block;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.item-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
